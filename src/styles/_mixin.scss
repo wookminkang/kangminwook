@@ -1,0 +1,26 @@
+@mixin blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    white-space: nowrap;
+    clip: rect(0, 0, 0, 0);
+}
+
+@mixin center {
+    width: 100%;
+    margin: 0 auto;
+    max-width: $g-max-width;
+    padding: 0 $g-inner-padding;
+}
+
+@mixin ahref {
+    background: #e16c74;
+    color:#fff;
+    border-radius: 3px;
+    padding:.2rem .4rem;
+    font-size:1.2rem;
+}
