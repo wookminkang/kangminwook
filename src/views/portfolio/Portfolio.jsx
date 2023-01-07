@@ -1,4 +1,10 @@
+import { Navigation } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
 import style from "./Portfolio.module.scss";
+
+
 
 
 export function Portfolio() {
@@ -8,7 +14,227 @@ export function Portfolio() {
                 <img src="/images/my/my.png" alt="강민욱 이모지ㅋㅋㅋ" />
                 Portfolio. 
             </h2>
-
+            <article>
+                <Swiper className={style.portfolioWrap}
+                    modules={[Navigation]}
+                    spaceBetween={50}
+                    slidesPerView={2.5}
+                    navigation
+                    onSlideChange={() => console.log('slide change')}
+                    onSwiper={(swiper) => console.log(swiper)}
+                >
+                    <SwiperSlide className={style.portfolioBox}>
+                        <a href="">
+                            <div className={style.portfolioContentBox}>
+                                <div className={style.portfolioImg}>
+                                    Img
+                                </div>
+                                <p className={style.txt}>
+                                    금솔인(리쿠르팅)
+                                </p>
+                                <p className={ style.etc}>
+                                    참여도 100%
+                                </p>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className={style.portfolioBox}>
+                        <a href="">
+                            <div className={style.portfolioContentBox}>
+                                <div className={style.portfolioImg}>
+                                    Img
+                                </div>
+                                <p className={style.txt}>
+                                    로이어프렌즈
+                                </p>
+                                <p className={ style.etc}>
+                                    참여도 100%
+                                </p>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className={style.portfolioBox}>
+                        <a href="">
+                            <div className={style.portfolioContentBox}>
+                                <div className={style.portfolioImg}>
+                                    Img
+                                </div>
+                                <p className={style.txt}>
+                                    법무법인 LF
+                                </p>
+                                <p className={ style.etc}>
+                                    참여도 100%
+                                </p>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className={style.portfolioBox}>
+                        <a href="">
+                            <div className={style.portfolioContentBox}>
+                                <div className={style.portfolioImg}>
+                                    Img
+                                </div>
+                                <p className={style.txt}>
+                                    침스생빛한의원
+                                </p>
+                                <p className={ style.etc}>
+                                    참여도 100%
+                                </p>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className={style.portfolioBox}>
+                        <a href="">
+                            <div className={style.portfolioContentBox}>
+                                <div className={style.portfolioImg}>
+                                    Img
+                                </div>
+                                <p className={style.txt}>
+                                    김재덕성형외과
+                                </p>
+                                <p className={ style.etc}>
+                                    참여도 100%
+                                </p>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className={style.portfolioBox}>
+                        <a href="">
+                            <div className={style.portfolioContentBox}>
+                                <div className={style.portfolioImg}>
+                                    Img
+                                </div>
+                                <p className={style.txt}>
+                                    양재경희한의원
+                                </p>
+                                <p className={ style.etc}>
+                                    참여도 100%
+                                </p>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className={style.portfolioBox}>
+                        <a href="">
+                            <div className={style.portfolioContentBox}>
+                                <div className={style.portfolioImg}>
+                                    Img
+                                </div>
+                                <p className={style.txt}>
+                                    인주한방병원
+                                </p>
+                                <p className={ style.etc}>
+                                    참여도 100%
+                                </p>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className={style.portfolioBox}>
+                        <a href="">
+                            <div className={style.portfolioContentBox}>
+                                <div className={style.portfolioImg}>
+                                    Img
+                                </div>
+                                <p className={style.txt}>
+                                    법무법인 거산
+                                </p>
+                                <p className={ style.etc}>
+                                    참여도 100%
+                                </p>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className={style.portfolioBox}>
+                        <a href="">
+                            <div className={style.portfolioContentBox}>
+                                <div className={style.portfolioImg}>
+                                    Img
+                                </div>
+                                <p className={style.txt}>
+                                    통달한의원
+                                </p>
+                                <p className={ style.etc}>
+                                    참여도 100%
+                                </p>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className={style.portfolioBox}>
+                        <a href="">
+                            <div className={style.portfolioContentBox}>
+                                <div className={style.portfolioImg}>
+                                    Img
+                                </div>
+                                <p className={style.txt}>
+                                    더바른한의원
+                                </p>
+                                <p className={ style.etc}>
+                                    참여도 100%
+                                </p>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className={style.portfolioBox}>
+                        <a href="">
+                            <div className={style.portfolioContentBox}>
+                                <div className={style.portfolioImg}>
+                                    Img
+                                </div>
+                                <p className={style.txt}>
+                                    힘찬장례식장
+                                </p>
+                                <p className={ style.etc}>
+                                    참여도 100%
+                                </p>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className={style.portfolioBox}>
+                        <a href="">
+                            <div className={style.portfolioContentBox}>
+                                <div className={style.portfolioImg}>
+                                    Img
+                                </div>
+                                <p className={style.txt}>
+                                    바른솔한방병원
+                                </p>
+                                <p className={ style.etc}>
+                                    참여도 100%
+                                </p>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className={style.portfolioBox}>
+                        <a href="http://xn--9m1b92mi4aba015f5vg.com/" target="_blank">
+                            <div className={style.portfolioContentBox}>
+                                <div className={style.portfolioImg}>
+                                    Img
+                                </div>
+                                <p className={style.txt}>
+                                    법무법인 더쌤
+                                </p>
+                                <p className={ style.etc}>
+                                    참여도 100%
+                                </p>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className={style.portfolioBox}>
+                        <a href="http://goeunseon.com/" target="_blank">
+                            <div className={style.portfolioContentBox}>
+                                <div className={style.portfolioImg}>
+                                    Img
+                                </div>
+                                <p className={style.txt}>
+                                    고은선한의원
+                                </p>
+                                <p className={ style.etc}>
+                                    참여도 100%
+                                </p>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                </Swiper>
+            </article>
             <article>
                 <p className={style.tit}>
                     <span>실무 스킬</span>

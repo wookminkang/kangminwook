@@ -1,0 +1,157 @@
+@import "../../styles/_mixin";
+
+
+.contentsWrap {
+    @include contentWrap;
+}
+
+.tableSimple2{
+    margin-top:10px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    caption{
+        width: auto;
+        height: auto;
+        font-size: 1.8rem;
+        line-height: 15px;
+        text-indent: 0;
+        visibility: visible;
+        text-align: left;
+        padding: 11px 15px 8px;
+        border: 1px solid #dedede;
+        border-bottom: none;
+        font-weight: bold;
+        color: #444;
+        overflow: hidden;
+    }
+    td,th {
+        padding: 6px 10px 4px;
+        border: 1px solid #ddd;
+        line-height: 1.5;
+        color:#666;
+        vertical-align: middle;
+    }
+    th{
+        color:#444;
+        text-align: left;
+    }
+}
+
+
+
+.title1{
+    font-size:6.4rem;
+    line-height: 1.2;
+}
+
+.title2 {
+    font-size: 5.6rem;
+    line-height: 1.2;
+}
+
+.title3 {
+    font-size: 4.8rem;
+    line-height: 1.2;
+}
+
+.heading1{
+    font-size:2.6rem;
+    line-height: 1.2;
+}
+
+.heading2 {
+    font-size: 2.3rem;
+    line-height: 1.2;
+}
+
+.heading3 {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+.font18{
+    font-size:1.8rem;
+    line-height: 1.5;
+}
+
+.font16 {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.font14 {
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.font_red{
+    color: #ff0000 !important;
+}
+
+.font_blue {
+    color: #3366cc !important
+}
+
+.font_orange {
+    color: #ff6600 !important
+}
+
+.font_green {
+    color: #169d00 !important
+}
+
+
+.font_gray1 {
+    color: #808080 !important
+}
+
+.font_gray2 {
+    color: #949494 !important
+}
+
+.font_gray3 {
+    color: #a9a9a9 !important
+}
+
+.font_gray4 {
+    color: #bdbebd !important
+}
+
+.font_gray5 {
+    color: #d3d3d3 !important
+}
+
+.font_gray6 {
+    color: #e9e9e9 !important
+}
+
+.font_700{
+    font-weight: 700;
+}
+
+.font_500 {
+    font-weight: 500;
+}
+
+.font_400 {
+    font-weight: 400;
+}
+
+.font_300 {
+    font-weight: 300;
+}
+
+.PageNavi{
+    position: absolute;
+    right:-72px;
+    li{
+        color:#fff;
+        padding:3px 0;
+        cursor: pointer;
+    }
+}
+
+
+

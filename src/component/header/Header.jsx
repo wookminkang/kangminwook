@@ -24,6 +24,11 @@ export function Header() {
                     </Link>
                 </li>
                 <li>
+                    <Link to="markup/font">
+                        My Mark Up Guide
+                    </Link>
+                </li>
+                <li>
                     <Link to="about">
                         Contact
                     </Link>

@@ -33,7 +33,7 @@ export function About() {
                                 2020.09 ~ 2022.04 <em>|</em>                            
                             </dt>
                             <dd>
-                                &nbsp;금솔커뮤니케이션 <em>|</em> Publishing <img src="/images/icon/html.svg" alt="html" /> <img src="/images/icon/css.svg" alt="css" /> <img src="/images/icon/js.svg" alt="js" /> + <img src="/images/icon/php.svg" alt="php" />
+                                &nbsp;금솔커뮤니케이션 <em>|</em> <b>Publishing</b> <img src="/images/icon/html.svg" alt="html" /> <img src="/images/icon/css.svg" alt="css" /> <img src="/images/icon/js.svg" alt="js" /> +<img src="/images/icon/php.svg" alt="php" />
                             </dd>
                         </dl>
 
@@ -59,13 +59,43 @@ export function About() {
                                 2017.05 ~ 2020.09 <em>|</em>                            
                             </dt>
                             <dd>
-                                &nbsp;솔루션뱅크 <em>|</em> Publishing  <img src="/images/icon/html.svg" alt="html" /> <img src="/images/icon/css.svg" alt="css" /> <img src="/images/icon/js.svg" alt="js" /> + <img src="/images/icon/php.svg" alt="php" />
+                                &nbsp;솔루션뱅크 <em>|</em> <b>Publishing</b>  <img src="/images/icon/html.svg" alt="html" /> <img src="/images/icon/css.svg" alt="css" /> <img src="/images/icon/js.svg" alt="js" /> + <img src="/images/icon/php.svg" alt="php" />
                             </dd>
                         </dl>
                     </li>
                     <li>
                         <span>주요 프로젝트</span>
                         최근 오픈한 순
+                        <dl className={style.myfinoDl}>
+                            <dt>
+                                shereit(쉐어잇) <img src="/images/icon/react.svg" alt="react" />                          
+                            </dt>
+                        </dl>
+                        <dl className={style.myfinoDl}>
+                            <dt>
+                                금솔인 <img src="/images/icon/js.svg" alt="js" /> +<img src="/images/icon/php.svg" alt="php" />
+                            </dt>
+                        </dl>
+                        <dl className={style.myfinoDl}>
+                            <dt>
+                                인터렉티브 웹 포폴(개인) <img src="/images/icon/js.svg" alt="js" />
+                            </dt>
+                        </dl>
+                        <dl className={style.myfinoDl}>
+                            <dt>
+                                오늘의맛집(개인) <img src="/images/icon/react.svg" alt="react" />
+                            </dt>
+                        </dl>
+                        <dl className={style.myfinoDl}>
+                            <dt>
+                                노브랜드버거(개인) <img src="/images/icon/js.svg" alt="js" />
+                            </dt>
+                        </dl>
+                        <dl className={style.myfinoDl}>
+                            <dt>
+                                건강플랫폼(개인) <img src="/images/icon/js.svg" alt="js" />
+                            </dt>
+                        </dl>
                     </li>
                     <li>
                         <span>주요 기술</span>

@@ -11,6 +11,28 @@
     z-index: 1;
 }
 
+.portfolioWrap{
+    .portfolioBox{
+        padding:0;
+        border:0;
+        .portfolioImg{
+            border-radius: 5px;
+            border: 1px solid #e3e3e3;
+        }
+        .txt{
+            margin-top:12px;
+            font-size:1.6rem;
+            color:#222;
+        }
+        .etc{
+            margin-top:2px;
+            font-size:1.45rem;
+            color:#666;
+        }
+    }
+}
+
+
 
 article {
     border-bottom: 1px solid #e3e3e3;

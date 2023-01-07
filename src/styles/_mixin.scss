@@ -24,3 +24,16 @@
     padding:.2rem .4rem;
     font-size:1.2rem;
 }
+
+
+@mixin contentWrap {
+    position: relative;
+    margin: 10rem auto;
+    max-width: 76.8rem;
+    min-height: 50rem;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 0.3rem 0.4rem 0 rgba(0, 0, 0, 0.06);
+    position: relative;
+    z-index: 1;
+}

@@ -1,5 +1,10 @@
+import React, { Suspense } from 'react';
 import { useEffect, useState } from "react";
-import { useSetRecoilState } from "recoil";
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls } from '@react-three/drei';
+import Model from "../../component/Model"
+import Last from "../../component/Last"
+
 import styles from "./Home.module.scss"
 
 export function Home() { 
@@ -49,7 +54,22 @@ export function Home() {
             </div>
         ): (
             <div>
-                hi!!        
+                <Canvas
+                    camera={{ position: [2, 0, 12.25], fov: 15 }}
+                    style={{
+                        backgroundColor: '#111a21',
+                        width: '100vw',
+                        height: '100vh',
+                    }}
+                >
+                    <ambientLight intensity={1.25} />
+                    <ambientLight intensity={0.1} />
+                    <directionalLight intensity={0.4} />
+                    <Suspense fallback={null}>
+                        <Last position={[0.025, -0.9, 0]} /> /* highlight-line */
+                    </Suspense>
+                    <OrbitControls />
+                </Canvas>  
             </div>
         )
         
